@@ -22,7 +22,7 @@ export default {
     async fetchwonders(){
 
       try {
-      const res = await fetch('http://localhost:5000/api/');
+      const res = await fetch('https://wondersoftheworldbackend.vercel.app/api');
       const data = await res.json();
       console.log(data);
       return data;
